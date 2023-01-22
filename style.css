@@ -96,3 +96,36 @@ ul {
   border-radius: 15px;
   opacity: 0.5;
 }
+
+.section-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+
+.section-one-header {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.dummy-square {
+  width: 200px;
+  height: 200px;
+  border: #3882f6 solid 5px;
+  border-radius: 15px;
+}
+
+.subsection-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subsection-one-paragraph {
+  text-align: center;
+  inline-size: 200px;
+}
