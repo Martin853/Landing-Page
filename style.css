@@ -95,6 +95,8 @@ ul {
 .hero-text-image {
   border-radius: 15px;
   opacity: 0.5;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .section-one {
