@@ -131,3 +131,34 @@ ul {
   text-align: center;
   inline-size: 200px;
 }
+
+.section-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.section-two-paragraph {
+  width: 750px;
+  text-align: left;
+  color: #333;
+  font-size: 30px;
+  margin: 85px;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.section-two-header {
+  align-self: flex-end;
+  font-size: 35px;
+  margin: 85px;
+  margin-top: 0;
+}
+
+.section-two-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
