@@ -79,7 +79,7 @@ ul {
 
 .hero-text-button {
   border: none;
-  border-radius: 15px;
+  border-radius: 10px;
   font-size: 25px;
   background-color: #3882f6;
   color: white;
@@ -161,4 +161,63 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.section-three-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-three-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  margin-top: 85px;
+  margin-bottom: 85px;
+  width: 1000px;
+  height: 190px;
+  border-radius: 30px;
+}
+
+.section-three-left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.section-three-right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-three-button {
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 25px;
+  background-color: #3882f6;
+  color: white;
+  padding: 5px;
+  margin-right: 180px;
+}
+
+.section-three-button:hover {
+  cursor: pointer;
+  background-color: #0a68ff;
+}
+
+.section-three-header {
+  color: white;
+  font-size: 28px;
+  align-self: flex-start;
+  margin-bottom: 0;
+  margin-left: 180px;
+}
+
+.section-three-paragraph {
+  color: #eee;
+  font-size: 18px;
+  margin-left: 180px;
 }
