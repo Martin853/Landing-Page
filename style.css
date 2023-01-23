@@ -12,10 +12,12 @@ body {
 
 .header {
   background-color: #1f2937;
+  border-bottom: #0b192d solid 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: #0c1521 solid 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 #header-logo {
@@ -44,7 +46,6 @@ ul {
   padding: 10px;
   display: flex;
   justify-content: space-between;
-  border-bottom: #0c1521 solid 5px;
 }
 
 .left-side-hero-text {
@@ -78,13 +79,14 @@ ul {
 }
 
 .hero-text-button {
+  align-self: flex-start;
   border: none;
   border-radius: 10px;
   font-size: 25px;
+  margin-top: 10px;
+  padding: 5px;
   background-color: #3882f6;
   color: white;
-  align-self: flex-start;
-  margin-top: 10px;
 }
 
 .hero-text-button:hover {
@@ -103,14 +105,15 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 60px;
   gap: 20px;
-  padding-bottom: 50px;
 }
 
 .section-one-header {
   font-size: 36px;
   font-weight: bold;
   text-align: center;
+  padding-top: 20px;
 }
 
 .dummy-square {
