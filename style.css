@@ -41,6 +41,11 @@ ul {
   font-size: 18px;
 }
 
+.header-links:hover {
+  color: rgb(127, 127, 127);
+  text-decoration: underline 2px;
+}
+
 .hero-text {
   background-color: #1f2937;
   padding: 10px;
