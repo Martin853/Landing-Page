@@ -1,6 +1,7 @@
 # Landing-Page
 
 <h2>A simple project for The Odin Project about creating a landing page.</h2>
+<p>In this project i learned to use flexbox</p>
 
 <a href="https://martin853.github.io/Landing-Page/">Link to website</a>
 
